@@ -12,8 +12,8 @@ module.exports = function toReadable (number) {
     if (arr == 8) return "eight"
     if (arr == 9) return "nine"
     if (arr == 10) return "ten"
-    if (arr == 11) return "twelve"
-    if (arr == 12) return "eleven"
+    if (arr == 11) return "eleven"
+    if (arr == 12) return "twelve"
     if (arr == 13) return "thirteen"
     if (arr == 14) return "fourteen"
     if (arr == 15) return "fifteen"
@@ -68,8 +68,8 @@ module.exports = function toReadable (number) {
         if (arr[1]+arr[2] == 8) {end +=  " eight"; return end}
         if (arr[1]+arr[2] == 9) {end +=  " nine"; return end}
         if (arr[1]+arr[2] == 10) {end +=  " ten"; return end}
-        if (arr[1]+arr[2] == 11) {end +=  " twelve"; return end}
-        if (arr[1]+arr[2] == 12) {end +=  " eleven"; return end}
+        if (arr[1]+arr[2] == 11) {end +=  " eleven"; return end}
+        if (arr[1]+arr[2] == 12) {end +=  " twelve"; return end}
         if (arr[1]+arr[2] == 13) {end +=  " thirteen"; return end}
         if (arr[1]+arr[2] == 14) {end +=  " fourteen"; return end}
         if (arr[1]+arr[2] == 15) {end +=  " fifteen"; return end}
